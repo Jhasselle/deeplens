@@ -1,9 +1,3 @@
-#*****************************************************
-#                                                    *
-# Copyright 2018 Amazon.com, Inc. or its affiliates. *
-# All Rights Reserved.                               *
-#                                                    *
-#*****************************************************
 """ A sample lambda for face detection"""
 from botocore.session import Session
 import boto3
@@ -18,7 +12,6 @@ import time
 
 # The time interval in seconds 
 # For limiting how often deeplens will upload to S3
-
 
 class LocalDisplay(Thread):
     """ Class for facilitating the local display of inference results
